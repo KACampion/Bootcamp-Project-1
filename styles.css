@@ -1,0 +1,378 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Temporary Stles*/
+
+/*
+*{
+    padding:0.5rem;
+    border: 1px solid gray;
+}
+
+html, body {
+    border:none;
+}
+
+h1,h2,h3,h4,h5,h6,a,p{
+    border: 2px solid rgb(33, 131, 131); 
+}
+
+*/
+/* End Temporary Stles*/
+
+/* Universal Reusable Styles*/
+
+.tall-50 {
+  min-height: 50vh;
+}
+.tall-60 {
+  min-height: 60vh;
+}
+.tall-70 {
+  min-height: 70vh;
+}
+.tall-80 {
+  min-height: 80vh;
+}
+.tall-90 {
+  min-height: 90vh;
+}
+
+.tall-100 {
+  min-height: 100vh;
+}
+
+.padded {
+  padding: 5%;
+}
+.padded-1 {
+  padding: 1rem;
+}
+.padded-2 {
+  padding: 2rem;
+}
+.padded-large {
+  padding: 10%;
+}
+
+.padded-0 {
+  padding: 0;
+}
+
+.capped-width {
+  max-width: 1000px;
+  margin: auto;
+}
+.margin {
+  margin-bottom: 0;
+}
+
+.bg-featured {
+  background-color: #1c2a2c;
+}
+.bg-dark {
+  background-color: #24282b;
+}
+
+.light-text {
+  color: white;
+}
+
+.left {
+  text-align: left;
+}
+.center {
+  text-align: center;
+}
+.right {
+  text-align: right;
+}
+
+/* Typography*/
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+header {
+  padding: 1% 5%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
+.text-xl {
+  font-size: 8rem;
+}
+
+.subtle {
+  opacity: 0.8;
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+p,
+li {
+  font-weight: 300;
+  font-size: 1.1rem;
+  line-height: 1.4;
+  margin-bottom: 0.8rem;
+}
+
+p:last-child,
+li:last-child {
+  margin-bottom: 0;
+}
+
+a {
+  color: inherit;
+}
+
+header a {
+  text-decoration: none;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: normal;
+  letter-spacing: 0.05em;
+  margin-bottom: 0;
+}
+
+.fab {
+  font-size: 1.5rem;
+  padding-left: 0.7rem;
+}
+
+a:hover {
+  color: rgb(47, 173, 173);
+}
+/* Background Images*/
+
+.bg-image {
+  background-color: #24282b;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("/images/the-bunker-1.jpg");
+}
+
+.bg-roof {
+  background-image: url("/images/the-bunker-5.jpg");
+}
+
+.bg-bed {
+  background-image: url("/images/the-bunker-1.jpg");
+}
+
+.bg-hallway {
+  background-image: url("/images/the-bunker-3.jpg");
+}
+
+.bg-lounge {
+  background-image: url("/images/the-bunker-2.jpg");
+}
+
+.bg-lounge2 {
+  background-image: url("/images/the-bunker-4.jpg");
+}
+
+.bg-sheets {
+  background-image: url("/images/the-bunker-7.jpg");
+}
+
+.bg-map {
+  background-image: url("/images/the-bunker-6.png");
+}
+
+.bg-indoor-lounge {
+  background-image: url("/images/indoor-lounge.jpg");
+}
+
+.bg-outdoor-lounge {
+  background-image: url("/images/oudoor-lounge.jpg");
+}
+
+.bg-bar {
+  background-image: url("/images/bar.jpeg");
+}
+
+.bg-sydney-opera {
+  background-image: url("/images/sydney-opera.jpg");
+}
+
+.social-banner {
+  background-position: 50% 17%;
+}
+
+.bg-dark-map {
+  background-color: #462606;
+}
+
+.show-sm {
+  display: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: inherit;
+  padding: 0.5em;
+  display: inline-block;
+  font-weight: 400;
+}
+
+.bg-padded {
+  padding-bottom: 30%;
+}
+
+/* Header and Hamburger Menu*/
+
+.hamburger-button {
+  color: rgb(60, 60, 60);
+}
+
+.mobile-menu {
+  display: none;
+  color: white;
+  background-color: rgb(6, 49, 49);
+  padding: 5%;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  text-align: center;
+}
+
+.mobile-menu a {
+  text-decoration: none;
+  color: inherit;
+  padding: 5vh 5%;
+  display: block;
+  font-weight: normal;
+  font-size: 1.5rem;
+}
+/* Footer */
+
+footer h2 {
+  font-size: 6rem;
+  line-height: 1;
+}
+
+footer p {
+  margin-bottom: 0.2rem;
+}
+
+/* Explore Page*/
+
+.explore-page h1 {
+  margin-bottom: 1rem;
+}
+.explore-page a {
+  display: block;
+  padding: 0.5rem;
+  border: 1px solid;
+  margin: 0.5rem;
+  color: white;
+  font-weight: 400;
+}
+
+.explore-page .night-life {
+  background-color: rgb(65, 24, 65);
+}
+
+.explore-page .featured {
+  background-color: rgb(9, 10, 78);
+}
+
+.explore-page .cafe {
+  background-color: rgb(65, 24, 65);
+}
+
+.explore-page .insta {
+  background-color: rgb(9, 10, 78);
+}
+
+.explore-page .whats-app {
+  background-color: rgb(65, 24, 65);
+}
+
+.explore-page a:hover {
+  background-color: black;
+  color: goldenrod;
+  font-weight: bold;
+}
+
+/* Responsive Videos*/
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* max width in pixels is 48 * 16 = 768 pixels */
+@media (max-width: 48em) {
+  .hide-sm {
+    display: none;
+  }
+
+  .show-sm {
+    display: block;
+  }
+
+  .flex-flip-sm {
+    flex-direction: column-reverse;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  .text-xl {
+    font-size: 4rem;
+  }
+
+  footer h2 {
+    font-size: 3rem;
+  }
+
+  .social-banner {
+    background-image: none;
+    background-color: #1c2a2c;
+    min-height: 30vh;
+  }
+}
